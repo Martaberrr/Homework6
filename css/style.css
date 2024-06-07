@@ -1,0 +1,179 @@
+.for-width{
+    width: 1220px;
+    margin: 0 auto;
+}
+.for-flex{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.right1{
+    display: flex;
+    align-items: center;
+}
+
+.right2{
+    width: 184px;
+    height: 65px;
+    background-color: #6B77E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ul1{
+    display: flex;
+    justify-content: space-between;
+    width: 601px;
+}
+.header{
+    padding-top: 53px;
+    /* position: sticky; არ მინდა რომ მომყვებოდეს სქროლვის დროს არაკომფორტულია*/
+    /* width: 100%; */
+    top: 0px;
+    left: 0px;
+}
+body{
+    height: 4000px;
+    /* padding-top: 118px; ეს თუ გვაქვს position:fixed*/
+}
+
+.boxes{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 60px;
+}
+
+.box{
+    width: 386px;
+    height: 383px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text1{
+    text-align: center;
+    font-size: 22px;
+}
+.text2{
+    text-align: center;
+    margin-bottom: 41px;
+    font-size: 70px;
+}
+.p-class{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 37px;
+    font-size: 18px;
+}
+.appoint{
+    margin-bottom: 13px;
+    font-size: 25px;
+}
+
+.testimonial{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.after-header-div{
+    margin-top: 136px;
+}
+.circle{
+    width: 72px;
+    height: 72px;
+   background-color: #40DDB6;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.section-2h3{
+    font-size: 18px;
+    color:#37393F;
+    margin-bottom: 16px;
+}
+.section-2h2{
+    font-size: 40px;
+    color: #37393F;
+    margin-bottom: 21px;
+}
+.section-2p{
+    font-size: 18px;
+    color: #37393F;
+    margin-bottom: 47px;
+}
+.circle2{
+   width: 64.5px;
+   height: 64.5px;
+   background-color: #6B77E5;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+}
+.big-img{
+    width: 100%;
+}
+.div-absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 511px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div-relative{
+    position: relative;
+}
+.last-p{
+    font-size: 22px;
+    margin-bottom: 16px;
+    columns: #37393F;
+    text-align: center;
+}
+.last-h3{
+    font-size: 40px;
+    color: #37393F;
+    text-align: center;
+}
+.space{
+    margin-top: 130px;
+}
+.last-imgs{
+    width: 386px;
+    height: 532px;
+}
+
+.last-absolute{
+    position: absolute;
+    bottom: 15%;
+    left: 13%;
+    transform: translate(-25%, -13%);
+}
+.last-div-imgs{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.square{
+    width: 190px;
+    height: 55px;
+   background-color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.all-three-divs{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
