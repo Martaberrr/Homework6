@@ -164,8 +164,8 @@ padding-bottom: 60px;
     justify-content: space-between;
 }
 .square{
-    width: 190px;
-    height: 55px;
+    width: 341px;
+    height: 114px;
    background-color: #FFFFFF;
    display: flex;
    justify-content: center;
@@ -173,6 +173,7 @@ padding-bottom: 60px;
 }
 
 .all-three-divs{
+width: 1220px;
 display: flex;
 justify-content: space-between;
 align-items: center;
